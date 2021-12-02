@@ -241,34 +241,4 @@
   .u-section-3 .u-sheet-1 {
     min-height: 457px;
   }
-}.u-section-4 .u-sheet-1 {
-  min-height: 72px;
-}
-
-.u-section-4 .u-social-icons-1 {
-  height: 32px;
-  min-height: 16px;
-  width: 116px;
-  min-width: 68px;
-  margin: 20px auto 60px;
-}
-
-.u-section-4 .u-icon-2 {
-  height: 100%;
-}
-
-.u-section-4 .u-icon-3 {
-  height: 100%;
-}
-
-@media (max-width: 767px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 63px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 4px;
-  }
 }

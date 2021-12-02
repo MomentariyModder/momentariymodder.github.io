@@ -123,50 +123,77 @@
 }
 
 .u-section-3 .u-blog-1 {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  grid-template-columns: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  grid-gap: 0px 0px;
 }
 
 .u-section-3 .u-repeater-1 {
   grid-template-columns: 100%;
-  grid-gap: 10px 10px;
-  min-height: 571px;
+  grid-gap: 0px 0px;
+  min-height: 789px;
 }
 
 .u-section-3 .u-container-layout-1 {
-  padding: 30px;
+  padding: 30px 20px;
 }
 
 .u-section-3 .u-image-1 {
-  height: 401px;
+  height: 512px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.u-section-3 .u-text-1 {
-  font-weight: 700;
-  margin: 20px 0 0;
+.u-section-3 .u-group-1 {
+  width: 640px;
+  min-height: 305px;
+  background-size: auto;
+  margin: -88px auto 0;
 }
 
-.u-section-3 .u-text-2 {
-  margin: 20px 0 0;
+.u-section-3 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-3 .u-text-1 {
+  margin: 20px auto 0;
 }
 
 .u-section-3 .u-metadata-1 {
   margin: 20px auto 0;
 }
 
-.u-section-3 .u-btn-1 {
-  border-style: none;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 20px auto 0;
+.u-section-3 .u-text-2 {
+  margin: 30px 0 0;
 }
 
-@media (max-width: 991px) {
-  .u-section-3 .u-image-1 {
-    height: 372px;
+.u-section-3 .u-btn-1 {
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 1px;
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-section-3 .u-gallery-nav-1 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.u-section-3 .u-gallery-nav-2 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-blog-1 {
+    height: auto;
   }
 }
 
@@ -176,8 +203,13 @@
     padding-right: 10px;
   }
 
-  .u-section-3 .u-image-1 {
-    height: 324px;
+  .u-section-3 .u-group-1 {
+    width: 520px;
+  }
+
+  .u-section-3 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -186,11 +218,7 @@
     min-height: 620px;
   }
 
-  .u-section-3 .u-blog-1 {
-    height: auto;
-  }
-
-  .u-section-3 .u-image-1 {
-    height: 247px;
+  .u-section-3 .u-group-1 {
+    width: 320px;
   }
 }
