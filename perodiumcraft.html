@@ -1,41 +1,102 @@
+<!--
+ Quara Theme by OllieJW (https://olliejw.me)
+ License - https://olliejw.me/tos
+-->
+
 <!DOCTYPE html>
-<html lang="ru">
 <head>
-				<meta charset="UTF-8">
-				<title>PerodiumCraft | MomentariyModder</title>
-<style>
- @font-face {
- font-family: ultra;
- src: url(fonts/Ultra.ttf);}
- @font-face {
- font-family: bold;
- src: url(fonts/Bold.ttf);
- }
- h5 {
- font-family: ultra;
- }
- h1 {
- font-family: bold;
- }
-</style>
+  <link rel="icon" href="./img/favicon.png">
+  <title>MomentariyModder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="title" content="MomentariyModder">
+  <meta name="description" content="">
+  <meta name="keywords" content="Minecraft, Mods">
+  <meta name="theme-color" content="#4bb4f1">
+
+  <!-- Edit this to change staff cards! -->
+
+
+  <!--
+	Notice:
+	When you make changes to config,
+	add ?v and a random number to config.css/js
+	Example: <link rel="stylesheet" href="config.css?v=100">
+  -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+  <script src="js/fireflies.js"></script>
+  <script src="js/main.js"></script>
+  <script src="config.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Raleway|Quicksand">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="config.css">
 </head>
-<body bgcolor="#B71C1C">
-<p align="center"><a href="index.html"><img src="images/logo.png" alt="" width="50%"></a></p>
-<h5 style="color:#ffffff"><p align="center">▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰</h5></p>				
-<p align="center">
-    <a href="ma.html"><img src="images/ma.png" alt="" width="20%"></a>
-    <a href="ssreload.html"><img src="images/ssreload.png" alt="" width="20%"></a>
-    <a href="perodiumcraft.html"><img src="images/perodiumcraft.png" alt="" width="20%"></a>
-</p>
-<h5 style="color:#ffffff"><p align="center">▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰</h5></p>
-<p align="center"><img src="images/perodiumcraft.png" alt="" width="30%"></p>		
-    <h1 style="color:#ffffff"><p align="center">Download:</h1></p>
-<p align="center">
-    <a href="https://www.curseforge.com/minecraft/mc-mods/perodiumcraft"><img src="images/curseforge.png" alt="" width="25%"></a>
-    <a href="https://modrinth.com/mod/perodiumcraft"><img src="images/modrinth.png" alt="" width="25%"></a>
-	<a href="https://github.com/MomentariyModder/release/tree/main/SUPPORTED/PerodiumCraft-The Next Generation"><img src="images/mirror.png" alt="" width="25%"></a>
-</p>
-    <h1 style="color:#ffffff"><p align="center"> </h1></p>
-    <h5 style="color:#ffffff"><p align="center">©MomentariyModder, 2022</h5></p>
+
+<body>
+
+  <div id="target"></div>
+
+  <script id="template" type="text/x-handlebars-template">
+
+  <header>
+    <div class="hero" id="hero">
+      <a href="index.html"><h1 style="padding-top: 3%;"><img src="img/logo.png" width="65%"></h1></a>
+  <div id="pinned">
+    <div class="pinned-card shrink shrink-pinned">
+    <strong>Menu</strong>
+	<a href="index.html" class="btn">Home</a>
+    <a href="index.html#projects" class="btn">Projects</a>
+	<a href="#social" class="btn">Social</a>
+    </div>
+  </div>
+	</div>
+  </header>
+
+  <section class="dark">
+      <div>
+      <p align="center">
+	    <img src="img/perodiumcraft/banner.png" width="50%" class="enlarge">
+        <strong></strong>
+		<strong>PerodiumCraft: The Next Generation</strong>
+        A new main resource appears in the game - Perodium. It is possible to make super-tools and super-armor from it. 
+		<strong></strong>
+		It is not so easy to create a periodium. But you will be pleased with the result. And a new world is added.
+		<strong></strong>
+	  </p>
+	  </div>
+	  <hr>
+	  <div>
+	  <p align="center">
+	  <strong>Download</strong>
+      <a href="https://www.curseforge.com/minecraft/mc-mods/perodiumcraft"><img src="img/curseforge.png" alt="" width="25%" class="enlarge"></a>
+      <a href="https://modrinth.com/mod/perodiumcraft"><img src="img/modrinth.png" alt="" width="25%" class="enlarge"></a>
+	  <a href="https://github.com/MomentariyModder/release/tree/main/SUPPORTED/PerodiumCraft-The Next Generation"><img src="img/mirror.png" alt="" width="25%" class="enlarge"></a>
+      </div>
+	  </p>
+	  <p align="center">
+	  <a href="index.html" class="btn2">◀ Back</a>
+	  </p>
+  </section>	
+
+  <section class="light">
+    <h1>GET SOCIAL</h1>
+    <div class="buttons" id="social">
+      <a href="https://discord.com/invite/9XqgjRd" class="btn">Discord</a>
+	  <a href="https://github.com/MomentariyModder" class="btn">GitHub</a>
+	  <a href="https://www.curseforge.com/members/momentariymodder" class="btn">CurseForge</a>
+	  <a href="https://modrinth.com/user/momentariymodder" class="btn">Modrinth</a>
+	  <a href="https://www.patreon.com/momentariymodder" class="btn">Patreon</a>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <a>&copy; 2019-2022 {{server_name}}. All Rights Reserved.</br>{{server_name}} is not affiliated with Mojang Studios.</a>
+  </footer>
+  </script>
+  
 </body>
-</html>
