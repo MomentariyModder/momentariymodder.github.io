@@ -4,8 +4,8 @@
  */
 
 @font-face {
-  font-family: NotoSans;
-  src: url(SF-Pro-Rounded-Medium.ttf);
+  font-family: Rubik-Medium;
+  src: url(Rubik-Medium.ttf);
 }
 
 html,
@@ -17,7 +17,7 @@ body {
 	max-height: 100%;
 	padding: 0px;
 	margin: 0px;
-	font-family: 'NotoSans', sans-serif;
+	font-family: 'Rubik-Medium', sans-serif;
 	background-color: #34393e;
 }
 .locked {
@@ -184,7 +184,7 @@ body {
     color: #fff;
 }
 h1 {
-	font-family: 'NotoSans', sans-serif;
+	font-family: 'Rubik-Medium', sans-serif;
 	font-size: 4em;
 	margin: 0;
 	text-transform: uppercase;
@@ -192,7 +192,7 @@ h1 {
     text-align: center;
 }
 h3 {
-	font-family: 'NotoSans', sans-serif;
+	font-family: 'Rubik-Medium', sans-serif;
 	font-size: 1.5em;
 }
 @media (max-width: 1200px) {
@@ -206,8 +206,8 @@ h3 {
 .info {
 	color: var(--info-color);
 	font-weight: 700;
-	/* Numbers look stupid in Raleway so we will make it NotoSans */
-	font-family: 'NotoSans', sans-serif;
+	/* Numbers look stupid in Raleway so we will make it Rubik-Medium */
+	font-family: 'Rubik-Medium', sans-serif;
 }
 .ip {
 	text-decoration: underline;
@@ -283,7 +283,7 @@ hr {
 }
 .staff-card h3 {
 	line-height: 0;
-	font-family: 'NotoSans',sans-serif;
+	font-family: 'Rubik-Medium',sans-serif;
 	color: #525252;
 }
 @media (max-width: 1200px) {
@@ -324,13 +324,13 @@ hr {
 
 .staff-card4 h1 {
 	line-height: 0;
-	font-family: 'NotoSans',sans-serif;
+	font-family: 'Rubik-Medium',sans-serif;
 	color: #ffffff;
 }
 
 .staff-card4 a {
 	line-height: 0;
-	font-family: 'NotoSans',sans-serif;
+	font-family: 'Rubik-Medium',sans-serif;
 	color: #ffffff;
 }
 
@@ -381,7 +381,7 @@ hr {
 }
 .vote-card h3 {
 	line-height: 0;
-	font-family: 'NotoSans',sans-serif;
+	font-family: 'Rubik-Medium',sans-serif;
 	color: #ffffff;
 }
 .vote-card a {
@@ -409,7 +409,7 @@ hr {
 }
 .news-card h3 {
 	line-height: 0;
-	font-family: 'NotoSans',sans-serif;
+	font-family: 'Rubik-Medium',sans-serif;
 }
 .news-card2 {
 	margin: auto;
@@ -421,7 +421,7 @@ hr {
 }
 .news-card2 h3 {
 	line-height: 0;
-	font-family: 'NotoSans',sans-serif;
+	font-family: 'Rubik-Medium',sans-serif;
 }
 #pinned {
 	width: 35em;
@@ -445,7 +445,7 @@ hr {
 }
 .pinned-card h3 {
 	line-height: 0;
-	font-family: 'NotoSans',sans-serif;
+	font-family: 'Rubik-Medium',sans-serif;
 }
 .pinned-card > .btn {
 	background: var(--pinned-button-color);
