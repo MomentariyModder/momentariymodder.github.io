@@ -1,7 +1,4 @@
-<!--
- Quara Theme by OllieJW (https://olliejw.me)
- License - https://olliejw.me/tos
--->
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +26,9 @@
   <script src="../js/main.js"></script>
   <script src="../config.js"></script>
   <script src="../js/lightbox.min.js"></script>
-
+  
+  <script>tosAgreed = true</script>
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../config.css">
@@ -64,6 +63,7 @@
 	<img class="locked" src="../img/projects/created_music_discs/banner.png" width="75%">
     <p> </p>
     <a href="#cmd-fragment" class="btn">Disc Fragment</a>
+	<a href="#cmd-mdb" class="btn">Music Disc Base</a>
 	<a href="#cmd-emd" class="btn">Empty Music Disc</a>
 	<a href="#cmd-ctmd" class="btn">Creating the music discs</a>
 	<a href="#cmd-сompatible" class="btn">Compatible Mods</a>
@@ -82,6 +82,16 @@
 	</div>
 	<p> </p>
 	<div class="news-card" id="cmd">	
+	<strong id="cmd-mdb">Music Disc Base</strong>
+	<i>Since version 3.4.0</i><br>
+	This is a template for creating music discs.
+	<br>
+	<img class="locked" src="../img/wiki/cmd/music_disc_base.png" width="35%">
+	<br>
+	Craft
+	</div>
+	<p> </p>
+	<div class="news-card" id="cmd">	
 	<strong id="cmd-emd">Empty Music Disc</strong>
 	This is the main ingredient for creating music discs.
 	<br>
@@ -92,23 +102,25 @@
 	<p> </p>
 	<div class="news-card" id="cmd">
 	<strong id="cmd-ctmd">Creating the music discs</strong>
-	The creation of music disc takes place in a Smithing Table, the main ingredient is an Empty Music Disc, then an item is added that is associated with the music disc itself.
+	Before version 3.4.0: The creation of music disc takes place in a Smithing Table, the main ingredient is an Empty Music Disc, then an item is added that is associated with the music disc itself.
+	<br>
+	Since version 3.4.0: The creation of a music disk takes place in a Smithing Table and in 1.20 format, i.e. the template is Music Disk Base, the base item is Empty Music Disc, and then an item related to the music disk itself is added.
 	<br>
 	Recipes for all music discs can be found through such mods as: Just Enough Items (JEI), Roughly Enough Items Fabric/Forge (REI) and EMI.
 	</div>
 	<p> </p>
 	<div class="news-card" id="cmd">
 	<strong id="cmd-сompatible">Compatible Mods</strong>
-	Created Music Discs is compatible with more than 39 mods, below is a list of them.
+	Created Music Discs is compatible with more than 43 mods, below is a list of them.
 	<br>
 	<br>
 	  Advent Of Ascension (by Scimiguy)
 	  <br>
-	  Ars Nouveau (by baileyholl2)
+	  Aether: Lost Content Addon (by ModdingLegacy)
 	  <br>
 	  Alex's Mobs (by sbom_xela)
 	  <br>
-	  Aether: Lost Content Addon (by ModdingLegacy)
+	  Ars Nouveau (by baileyholl2)
 	  <br>
 	  Berry Good (by TeamAbnormals)
 	  <br>
@@ -118,7 +130,7 @@
 	  <br>
 	  Blue Skies (by ModdingLegacy)
 	  <br>
-	  Botania (by Vazkii/Violet Moon)
+	  Botania (by Vazkii/Violet Moon) 
 	  <br>
 	  Broken Discs (by Sweetygamer)
 	  <br>
@@ -128,13 +140,17 @@
 	  <br>
 	  Distorted Discs (by BBoldt)*
 	  <br>
-	  Eidolon Rebrewed (by EndangeredNayla)
-      <br>
 	  Eidolon : Repraised (by Alexth99)
+	  <br>
+	  Eidolon Rebrewed (by EndangeredNayla)
 	  <br>
 	  Environmental (by TeamAbnormals)
 	  <br>
+	  Eternal Tales (by Unknown_Raccoon)*
+	  <br>
 	  Fish and Tails (by fusionstudiomc)
+	  <br>
+	  Forest X Reborn (by MagicalAlexey)
 	  <br>
 	  Infernal Expansion (by InfernalStudios)
 	  <br>
@@ -156,6 +172,8 @@
 	  <br>
 	  Sons Of Sins: Wounds of Chaos (by Furti_Two)
 	  <br>
+	  Spawn. (by ninnih_)
+	  <br>
 	  Spelunking Bags (by Unusual_Squad)
 	  <br>
 	  Sully's Mod (by GoesBySully)
@@ -164,9 +182,11 @@
 	  <br>
 	  The Aether: Redux (by Zepalesque)
 	  <br>
-	  The Bumblezone (by telepathicgrunt)
+	  The Bumblezone (by telepathicgrunt) 
 	  <br>
-	  The Graveyard (by finallion_13)
+	  The Graveyard (by finallion_13) 
+	  <br>
+	  The Legend of Herobrine (by Alex-MacLean)
 	  <br>
 	  The Twilight Forest (by Benimatic)
 	  <br>
@@ -186,10 +206,13 @@
 	<p> </p>
 	<div class="news-card" id="cmd">
 	<strong id="cmd-inсompatible">Incompatible Mods</strong>
-	Just Enough Items (JEI) (by mezz) [1.20.1+]: does not display recipes in the smithing table where the template is missing
+	Just Enough Items (JEI) (by mezz) [CMD 3.0.0-3.3.0]: does not display recipes in the smithing table where the template is missing
 	</p>
     </div>
-	<div class="feature center">
+	</div>
+  </section>
+  <section class="dark">
+	<div class="news-card" align="center">
 	<a href="../wiki.html" class="btn2">◀ Back</a>
 	</div>
   </section>
@@ -210,11 +233,12 @@
   
   
   <footer>
-    <a>&copy; 2019-2023 {{server_name}}. All Rights Reserved.</br>{{server_name}} is not affiliated with Mojang Studios, nor are its projects official Minecraft projects.<br>{{server_ip}}</a>
+    <a>&copy; 2019-2023 {{server_name}}. All Rights Reserved.</br>{{server_name}} is not affiliated with or endorsed by Mojang Studios or Microsoft<br>{{server_ip}}</a>
 	<a></a>
 	<img class="locked" src="../img/favicon.png" style="height:4em">
   </footer>
   </script>
+  <script src="../js/license.js"></script>
   
 </body>
 </html>

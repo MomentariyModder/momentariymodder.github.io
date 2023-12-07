@@ -1,7 +1,4 @@
-<!--
- Quara Theme by OllieJW (https://olliejw.me)
- License - https://olliejw.me/tos
--->
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +26,8 @@
   <script src="js/main.js"></script>
   <script src="config.js"></script>
   <script src="js/lightbox.min.js"></script>
-  
+   
+  <script>tosAgreed = true</script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   <link rel="stylesheet" href="css/style.css">
@@ -57,7 +55,7 @@
 	</div>
   </header>
   
-  <section class="dark">
+  <section class="dark" id="wiki">
     <h1><i class="fa-solid fa-book"></i> Wiki</h1>
     <div id="projects-l1" class="grid">
 	<div class="staff-card2">
@@ -65,21 +63,21 @@
 	  <strong></strong>
       <img class="locked" src="img/projects/momentariymodderapplications/avatar.png" width="100%">
 	  <strong></strong>
-      <a href="wiki/ma.html" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read">Read</f></a>
+      <a href="wiki/ma.html" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read_wiki">Read Wiki</f></a>
     </div>
 	<div class="staff-card2">
 	  <a class="lang" key="mod">Mod</a>
 	  <strong></strong>
       <img class="locked" src="img/projects/night_vision_helmets/avatar.png" width="100%">
 	  <strong></strong>
-      <a href="wiki/nvh.html" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read">Read</f></a>
+      <a href="wiki/nvh.html" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read_wiki">Read Wiki</f></a>
     </div>
 	<div class="staff-card2">
 	  <a class="lang" key="mod">Mod</a>
 	  <strong></strong>
       <img class="locked" src="img/projects/created_music_discs/avatar.png" width="100%">
 	  <strong></strong>
-      <a href="wiki/cmd.html" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read">Read</f></a>
+      <a href="wiki/cmd.html" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read_wiki">Read Wiki</f></a>
     </div>
 	</div>
 	<div id="projects-l2" class="grid">
@@ -88,15 +86,20 @@
 	  <strong></strong>
       <img class="locked" src="img/projects/created_spawn_eggs/avatar.png" width="100%">
 	  <strong></strong>
-      <a href="wiki/cse.html" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read">Read</f></a>
+      <a href="wiki/cse.html" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read_wiki">Read Wiki</f></a>
     </div>
 	<div class="staff-card2">
 	  <a class="lang" key="mod">Mod</a>
 	  <strong></strong>
       <img class="locked" src="img/projects/storage_crate/avatar.png" width="100%">
 	  <strong></strong>
-      <a href="wiki/sc.html" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read">Read</f></a>
+      <a href="wiki/sc.html" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read_wiki">Read Wiki</f></a>
     </div>
+	</div>
+  </section>
+  <section class="dark">
+	<div class="news-card" align="center">
+	<a href="./" class="btn2">◀ Back</a>
 	</div>
   </section>
   
@@ -116,11 +119,12 @@
   
   
   <footer>
-    <a>&copy; 2019-2023 {{server_name}}. All Rights Reserved.</br>{{server_name}} is not affiliated with Mojang Studios, nor are its projects official Minecraft projects.<br>{{server_ip}}</a>
+    <a>&copy; 2019-2023 {{server_name}}. All Rights Reserved.</br>{{server_name}} is not affiliated with or endorsed by Mojang Studios or Microsoft<br>{{server_ip}}</a>
 	<a></a>
 	<img class="locked" src="img/favicon.png" style="height:4em">
   </footer>
   </script>
+  <script src="js/license.js"></script>
   
 </body>
 </html>
