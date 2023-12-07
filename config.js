@@ -4,7 +4,7 @@
  */
 
 var server_name = "MomentariyModder";
-var server_ip = "Version 5.0: R1";
+var server_ip = "Website 5.0: R2";
 var server_port = 25565;
 var ip_copied = "IP copied!";
 
