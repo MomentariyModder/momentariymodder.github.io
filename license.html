@@ -1,0 +1,111 @@
+<!--
+MomentariyModder Website 5.0 by MomentariyModder
+The source code is available on GitHub!
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="img/favicon.png">
+  <title>Permissions & FAQ | MomentariyModder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="title" content="Permissions & FAQ | MomentariyModder">
+  <meta name="description" content="">
+  <meta name="keywords" content="Minecraft, Mods, MomentariyModder">
+  <meta name="theme-color" content="#4bb4f1">
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="config.js"></script>
+  <script src="js/lightbox.min.js"></script>
+   
+  <script>tosAgreed = true</script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="config.css">
+  <link href="css/lightbox.css" rel="stylesheet" media="all">
+
+</head>
+
+<body>
+
+  <div id="target"></div>
+
+  <script id="template" type="text/x-handlebars-template">
+
+  <header>
+    <div class="hero" id="hero">
+      <a href="#!"><h1 style="padding-top: 3%;"><img class="locked" src="img/logo.png" width="50%"></h1></a>
+    <p> </p>
+    <div class="news-card" align="center">
+      <a href="../" class="lang btn" key="about"><i class="fa-solid fa-house"></i> Home</a>
+	  <a href="#links" class="btn"><i class="fa-solid fa-share"></i> Links</a>
+    </div>
+	<p> </p>
+	</div>
+  </header>
+  
+  <section class="dark">
+    <h1 id="news2">Permissions & FAQ</h1>
+    <div id="news">
+	  <div class="news-card">
+        <strong>EN</strong>
+		<p> </p>
+		All rights reserved by MomentariyModder.<br>
+		This project can be used in modpacks and videos, but it is recommended to provide a link to it.<br>
+		This project can not be published on third-party sites, the exception is: sites like Aternos and if the publication on third-party sites by the author himself.<br>
+		Creation of forks, backports and ports without authorization of the author is CATIGORICALLY forbidden.<br>
+		Creation of addons is CATIGORICALLY welcomed and does not require author's permission.<br>
+		Using the assets of this project in your own projects without authorization is CATIGORICALLY prohibited.<br>
+		This project is not an official product of Minecraft and Mojang Studios.
+	  </div>
+	  <p> </p>
+	  <div class="news-card">
+        <strong>RU</strong>
+		<p> </p>
+		Все права защещены MomentariyModder.<br>
+		Данный проект можно использовать в модпаках и видео, однако рекомендуется указать ссылку на него.<br>
+		Данный проект нельзя публиковать на сторонние площадки, исключение является: сайты на подобие Aternos и если публикация на сторонние площадки происходит самим автором.<br>
+		Создание форков, бэкпортов и портов без разрешение автора КАТИГОРИЧЕСКИ запрещено.<br>
+		Создание аддонов КАТИГОРИЧЕСКИ приветствуется и не требует разрешение автором.<br>
+		Использование активы этого проекта в своих проектах без разрешение автора КАТИГОРИЧЕСКИ запрещено.<br>
+		Данный проект не является официальным продуктом Minecraft и Mojang Studios.
+      </div>
+    </div>
+	</div>
+  </section>
+  <section class="dark">
+	<div class="news-card" align="center">
+	<a href="./" class="btn2">◀ Back</a>
+	</div>
+  </section>
+  
+  <section class="light">
+    <h1><i class="fa-solid fa-share"></i> Links</h1>
+    <div id="links" align="center">
+	  <a href="https://discord.com/invite/9XqgjRd"><img title="Discord" src="img/links/discord.png" alt="Discord" width="5%" /></a>
+      <a href="https://twitter.com/momentariymoder"><img title="X/Twitter" src="img/links/x.png" alt="X/Twitter" width="5%" /></a>	  
+	  <a href="https://www.curseforge.com/members/momentariymodder"><img title="CurseForge" src="img/links/curseforge.png" alt="CurseForge" width="5%" /></a> 
+	  <a href="https://modrinth.com/user/momentariymodder"><img title="Modrinth" src="img/links/Modrinth.png" alt="Modrinth" width="5%" /></a>
+	  <a href="https://github.com/MomentariyModder"><img title="GitHub" src="img/links/GitHub.png" alt="GitHub" width="5%" /></a>
+	  <a href="https://patreon.com/momentariymodder"><img title="Patreon" src="img/links/patreon.png" alt="Patreon" width="5%" /></a>
+	  <a href="https://boosty.to/momentariymodder"><img title="Boosty" src="img/links/boosty.png" alt="Boosty" width="5%" /></a>
+	  <a href="https://ko-fi.com/momentariymodder"><img title="Ko-fi" src="img/links/ko-fi.png" alt="Ko-fi" width="5%" /></a>
+	  <a href="https://www.buymeacoffee.com/momentariymodder"><img title="Buy me a Coffee!" src="img/links/buymeacoffee.png" alt="Buy me a Coffee!" width="5%" /></a>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <a>&copy; 2019-2023 {{server_name}}. All Rights Reserved.</br>{{server_name}} is not affiliated with or endorsed by Mojang Studios or Microsoft<br>{{server_ip}}</a>
+	<a></a>
+	<img class="locked" src="img/favicon.png" style="height:4em">
+  </footer>
+  </script>
+  <script src="js/license.js"></script>
+</body>
+</html>

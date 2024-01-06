@@ -43,6 +43,7 @@ let warning=`
 	  <a href="https://patreon.com/momentariymodder"><img title="Patreon" src="https://momentariymodder.xyz/img/links/patreon.png" alt="Patreon" width="10%" /></a>
 	  <a href="https://boosty.to/momentariymodder"><img title="Boosty" src="https://momentariymodder.xyz/img/links/boosty.png" alt="Boosty" width="10%" /></a>
 	  <a href="https://ko-fi.com/momentariymodder"><img title="Ko-fi" src="https://momentariymodder.xyz/img/links/ko-fi.png" alt="Ko-fi" width="10%" /></a>
+	  <a href="https://www.buymeacoffee.com/momentariymodder"><img title="Buy me a Coffee!" src="img/links/buymeacoffee.png" alt="Buy me a Coffee!" width="10%" /></a>
     </div>
     </div>
   </div>
