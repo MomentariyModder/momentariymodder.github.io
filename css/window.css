@@ -1,0 +1,123 @@
+.konsekudag {
+  background-color: #0c6fa7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.krasivaya-knopka {
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #e8dede;
+  color: #1b9be2;
+  border: 2px solid #fbfbfb;
+  padding: 1rem 2rem;
+  font-weight: 900;
+  box-shadow: 0px 0px 12px 0px rgba(51, 47, 47, 0.48), 0px 0px 8px -15px rgba(255, 255, 255, 0.52);
+}
+
+.krasivaya-knopka:hover {
+  background: #05690d;
+  color: #fefffe;
+}
+
+.kanevalus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  overflow: hiden;
+  transition: .64s ease-in-out;
+}
+.kanevalus img {
+  transition: all .3s;
+}
+.vepuvakus-davnusen {
+  position: relative;
+  bottom: -100vw;
+  right: -100vh;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  max-height: 600px;
+  width: 60%;
+  height: 80%;
+  background-color: #f2f4f5;
+  transform: rotate(32deg);
+  transition: .64s ease-in-out;
+}
+.povekunosa {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+.povekunosa img {
+  width: auto;
+  height: 100%;
+}
+.kanevalustext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  padding: 4rem;
+}
+.kanevalustext h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #151414;
+}
+.kanevalustext p {
+  font-size: .875rem;
+  color: #5d5b5b;
+  line-height: 1.5;
+}
+
+.kanevalustext a {
+  text-decoration: none;
+  color: #47BDFF;
+}
+.kanevalus:target {
+  visibility: visible;
+  opacity: 1;
+}
+.kanevalus:target .vepuvakus-davnusen {
+  bottom: 0;
+  right: 0;
+  transform: rotate(0);
+}
+.kuchayevsena {
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 100%;
+  background-color: #47BDFF;
+  z-index: 4;
+  color: #f7f5f5;
+  line-height: 3rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
