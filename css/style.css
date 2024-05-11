@@ -312,6 +312,25 @@ hr {
   }
 }
 
+.staff-card2-d {
+	display: inline-block;
+	margin: 1em;
+    position: relative;
+    padding: 1em;
+    background: #24272b;
+    text-align: center;
+	width: 18em;
+	border-radius: 1em;
+}
+.staff-card2-d img {
+	border-radius: 1em;
+}
+@media (max-width: 1200px) {
+  .staff-card2-d {
+      width: 13em;
+  }
+}
+
 .staff-card4 {
 	display: inline-block;
 	margin: 1em;
@@ -490,6 +509,20 @@ hr {
 	text-decoration: none;
 }
 .btn2:hover {
+	background: var(--button2-hover-color);
+	color: var(--button2-hover-text-color);
+}
+
+.btn3 {
+    padding: 10px 25px;
+    background: var(--button2-color);
+    color: var(--button2-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn3:hover {
 	background: var(--button2-hover-color);
 	color: var(--button2-hover-text-color);
 }

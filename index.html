@@ -52,8 +52,8 @@ The source code is available on GitHub!
       <a href="wiki" class="btn"><i class="fa-solid fa-book"></i> <f class="lang" key="wiki">Wiki</f></a>
       <a href="#aboutme" class="btn"><i class="fa-solid fa-circle-info"></i> <f class="lang" key="about">Information</f></a>
       <a href="#projects" class="btn"><i class="fa-solid fa-list-ul"></i> <f class="lang" key="projects">Projects</f></a>
-	  <a href="#gallery" class="btn"><i class="fa-solid fa-camera"></i> <f class="lang" key="gallery">Gallery</f></a>
 	  <a href="#blog" class="btn"><i class="fa-solid fa-newspaper"></i> <f class="lang" key="news">Blog</f></a>
+	  <a href="#gallery" class="btn"><i class="fa-solid fa-camera"></i> <f class="lang" key="gallery">Gallery</f></a>
 	  <a href="#links" class="btn"><i class="fa-solid fa-share"></i> <f class="lang" key="links">Links</f></a>
     </div>
 	<p> </p>
@@ -136,43 +136,21 @@ The source code is available on GitHub!
       <a href="wiki" class="btn2"><i class="fa-solid fa-book"></i> <f class="lang" key="wiki">More Wiki</f></a>
     </div>
   </section>
-  
-  <section class="light" id="gallery">
-    <h1><i class="fa-solid fa-camera"></i> <f class="lang" key="gallery">Gallery</f></h1>
-	<div class="grid">
-	<div class="staff-card4" id="ytbanner-pc-short">
-	  <a class="lang" key="video">Video</a>
-	  <br>
-	  <iframe width="90%" src="https://www.youtube.com/embed/biSrL3hR77w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-	</div>
-	<div class="staff-card4" id="ytbanner-pc-short">
-	  <a class="lang" key="video">Video</a>
-	  <br>
-	  <iframe width="90%" src="https://www.youtube.com/embed/ZSY6WekUJ_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-	</div>
-	</div>
-	<p> </p>
-	<div class="grid">
-	<div class="staff-card4" id="ytbanner-pc-short">
-	  <a class="lang" key="screenshot">Screenshot</a>
-	  <a href="img/gallery/1.png" data-lightbox="roadtrip">
-	  <img src="img/gallery/1.png" width="100%">
-	  </a>
-	</div>
-	<div class="staff-card4" id="ytbanner-pc-short">
-	  <a class="lang" key="screenshot">Screenshot</a>
-	  <a href="img/gallery/2.png" data-lightbox="roadtrip">
-	  <img src="img/gallery/2.png" width="100%">
-	  </a>
-	</div>
-	</div>
-  </section>
-  
-  <section class="dark">
+    
+  <section class="light">
     <h1 id="blog"><i class="fa-solid fa-newspaper"></i> <f class="lang" key="blog">Blog</f></h1>
 	<p align="center">Time zone is UTC+3</p>
     <div id="projects-l1" class="grid">
-	<div class="staff-card2">
+	<div class="staff-card2-d">
+	  <a class="lang" key="updates">UPDATES</a>
+	  <strong></strong>
+	  <a href="img/blog/standard/nvh.png" data-lightbox="roadtrip">
+      <img class="" src="img/blog/standard/nvh.png" width="100%"></a>
+	  <strong>Night Vision Helmets - 4.0.0</strong>
+	  <i>11.05.2024, 19:00</i><br>
+	  <a href="blog/nvh-4.0.0" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read">Read</f></a>
+    </div>
+	<div class="staff-card2-d">
 	  <a class="lang" key="updates">UPDATES</a>
 	  <strong></strong>
 	  <a href="img/blog/standard/cmd.png" data-lightbox="roadtrip">
@@ -181,7 +159,7 @@ The source code is available on GitHub!
 	  <i>16.04.2024, 03:00</i><br>
 	  <a href="blog/cmd-4.0.0" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read">Read</f></a>
     </div>
-	<div class="staff-card2">
+	<div class="staff-card2-d">
 	  <a class="lang" key="updates">UPDATES</a>
 	  <strong></strong>
 	  <a href="img/blog/standard/mma.png" data-lightbox="roadtrip">
@@ -190,21 +168,43 @@ The source code is available on GitHub!
 	  <i>05.04.2024, 06:45</i><br>
 	  <a href="blog/mma-6.0.0" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read">Read</f></a>
     </div>
-	<div class="staff-card2">
-	  <a class="lang" key="updates">UPDATES</a>
-	  <strong></strong>
-	  <a href="img/blog/cmd-3.6.0/head.png" data-lightbox="roadtrip">
-      <img class="" src="img/blog/cmd-3.6.0/head.png" width="100%"></a>
-	  <strong>Created Music Discs - 3.6.0</strong>
-	  <i>28.03.2024, 06:30</i><br>
-	  <a href="blog/cmd-3.6.0" class="btn2"><i class="fa-solid fa-book-open-reader"></i> <f class="lang" key="read">Read</f></a>
-    </div>
 	</div>
   </section>
-  <section class="dark">  
+  <section class="light">  
 	<div class="news-card" align="center">
       <a href="blog" class="btn2"><i class="fa-solid fa-newspaper"></i> <f class="lang" key="view_more">View More</f></a>
     </div>
+  </section>
+  
+  <section class="dark" id="gallery">
+    <h1><i class="fa-solid fa-camera"></i> <f class="lang" key="gallery">Gallery</f></h1>
+	<div class="grid">
+	<div class="staff-card2" id="ytbanner-pc-short">
+	  <a class="lang" key="video">Video</a>
+	  <br>
+	  <iframe width="90%" src="https://www.youtube.com/embed/biSrL3hR77w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</div>
+	<div class="staff-card2" id="ytbanner-pc-short">
+	  <a class="lang" key="video">Video</a>
+	  <br>
+	  <iframe width="90%" src="https://www.youtube.com/embed/ZSY6WekUJ_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</div>
+	</div>
+	<p> </p>
+	<div class="grid">
+	<div class="staff-card2" id="ytbanner-pc-short">
+	  <a class="lang" key="screenshot">Screenshot</a>
+	  <a href="img/gallery/1.png" data-lightbox="roadtrip">
+	  <img src="img/gallery/1.png" width="100%">
+	  </a>
+	</div>
+	<div class="staff-card2" id="ytbanner-pc-short">
+	  <a class="lang" key="screenshot">Screenshot</a>
+	  <a href="img/gallery/2.png" data-lightbox="roadtrip">
+	  <img src="img/gallery/2.png" width="100%">
+	  </a>
+	</div>
+	</div>
   </section>
   
   <section class="light">
