@@ -21,7 +21,12 @@ The source code is available on GitHub!
   <script src="../js/main.js"></script>
   <script src="../config.js"></script>
   <script src="../js/lightbox.min.js"></script>
-  <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+  new Crate({
+    server: '696094539823448085',
+    channel: '1156033421940891688'
+  })
+  </script>
   
   <script>tosAgreed = true</script>
   
@@ -44,7 +49,7 @@ The source code is available on GitHub!
       <a href="#!"><h1 style="padding-top: 3%;"><img class="locked" src="../img/logo.png" width="50%"></h1></a>
     <p> </p>
     <div class="news-card" align="center">
-	  <a href="../" class="lang btn" key="about"><i class="fa-solid fa-house"></i> Home</a>
+	  <a href="../" class="btn"><i class="fa-solid fa-house"></i> Home</a>
       <a href="../Blog" class="btn"><i class="fa-solid fa-book"></i> Blog</a>
 	  <a href="#links" class="btn"><i class="fa-solid fa-share"></i> Links</a>
     </div>
@@ -56,7 +61,7 @@ The source code is available on GitHub!
 	<h1><i class="fa-solid fa-book"></i> Blog</h1>
     <div id="news">
 	<div class="news-card" align="center">
-	<a class="lang" key="updates">UPDATES</a><br>
+	<a>UPDATES</a><br>
 	<a href="../img/blog/standard/nvh.png" data-lightbox="roadtrip"><img class="" src="../img/blog/standard/nvh.png" width="75%"></a>
 	<h1 align="center">Night Vision Helmets - 4.0.0</h1>
 	<i>11.05.2024, 19:00</i><br>
