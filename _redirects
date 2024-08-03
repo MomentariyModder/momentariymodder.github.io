@@ -1,0 +1,17 @@
+# Redirects from what the browser requests to what we serve
+/projects/ma                /projects/applications
+/projects/nvh                /projects/night-vision-helmets
+/projects/cmd                /projects/created-music-discs
+/projects/cse                /projects/created-spawn-eggs
+/projects/hg                /projects/hunger-priview
+/projects/ssreload2                /projects/spongebob-squarepants-reload-2
+/projects/pc                /projects/perodiumcraft
+/projects/ssreload                /projects/spongebob-squarepants-reload
+/projects/sc                /projects/storage-crate
+/projects/wdt                /projects/window-doors-and-trapdoors
+/projects/ianda                /projects/industrial-and-adventure
+/wiki/ma                /wiki/applications
+/wiki/nvh                /wiki/night-vision-helmets
+/wiki/cmd                /wiki/created-music-discs
+/wiki/cse                /wiki/created-spawn-eggs
+/wiki/sc                /wiki/storage-crate

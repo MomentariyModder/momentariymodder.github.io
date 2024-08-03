@@ -1,10 +1,10 @@
 /*!
- * MomentariyModder Website 5.0 by MomentariyModder
+ * MomentariyModder Website 6.0 by MomentariyModder
  * The source code is available on GitHub!
  */
 
 var server_name = "MomentariyModder";
-var server_ip = "Website 5.12.0";
+var server_ip = "Website 6.0.0";
 var server_port = 25565;
 var ip_copied = "IP copied!";
 

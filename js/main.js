@@ -1,5 +1,5 @@
 /*!
- * MomentariyModder Website 5.0 by MomentariyModder
+ * MomentariyModder Website 6.0 by MomentariyModder
  * The source code is available on GitHub!
  */
 

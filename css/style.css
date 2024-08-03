@@ -1,5 +1,5 @@
 /*!
- * MomentariyModder Website 5.0 by MomentariyModder
+ * MomentariyModder Website 6.0 by MomentariyModder
  * The source code is available on GitHub!
  */
 
@@ -193,6 +193,9 @@ h1 {
 h3 {
 	font-family: 'Lexend', sans-serif;
 	font-size: 1.5em;
+    margin: 0;
+	width: 100%;
+	text-align: center;
 }
 @media (max-width: 1200px) {
   h1 {
