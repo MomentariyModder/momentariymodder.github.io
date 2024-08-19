@@ -334,6 +334,22 @@ hr {
   }
 }
 
+.staff-card2-d2 {
+	display: inline-block;
+	margin: 1em;
+    position: relative;
+    padding: 1em;
+    background: #24272b;
+    text-align: center;
+	width: 18em;
+	border-radius: 1em;
+}
+@media (max-width: 1200px) {
+  .staff-card2-d2 {
+      width: 13em;
+  }
+}
+
 .staff-card4 {
 	display: inline-block;
 	margin: 1em;
