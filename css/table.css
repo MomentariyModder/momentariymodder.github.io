@@ -1,0 +1,48 @@
+/*!
+ * MomentariyModder Website 6.0 by MomentariyModder
+ * The source code is available on GitHub!
+ */
+
+table {
+  font-family: 'Lexend',sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  background: var(--button-color);
+  color: var(--button-text-color);
+  border-radius: 1em;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+td {
+  border-radius: 1em;
+  padding: 8px 10px;
+  text-decoration: none;
+    transition: .3s;
+}
+
+th {
+  border-radius: 1em;
+  background: var(--button2-color);
+  color: var(--button2-text-color);
+
+td:last-of-type {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+

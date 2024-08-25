@@ -673,3 +673,108 @@ footer {
 img:hover {
 	filter: drop-shadow(0.5rem 0.5rem 0.25rem rgba(0,0,0,0.2));
 }
+
+.btn-table-status-active {
+    padding: 10px 25px;
+    background: var(--btn-table-status-active-color);
+    color: var(--button-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn-table-status-active:hover {
+	background: var(--btn-table-status-active-color);
+	color: var(--button-hover-text-color);
+}
+.btn-table-status-lts {
+    padding: 10px 25px;
+    background: var(--btn-table-status-lts-color);
+    color: var(--button-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn-table-status-lts:hover {
+	background: var(--btn-table-status-lts-color);
+	color: var(--button-hover-text-color);
+}
+.btn-table-status-eol {
+    padding: 10px 25px;
+    background: var(--btn-table-status-eol-color);
+    color: var(--button-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn-table-status-eol:hover {
+	background: var(--btn-table-status-eol-color);
+	color: var(--button-hover-text-color);
+}
+.btn-table-status-planned {
+    padding: 10px 25px;
+    background: var(--btn-table-status-planned-color);
+    color: var(--button-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn-table-status-planned:hover {
+	background: var(--btn-table-status-planned-color);
+	color: var(--button-hover-text-color);
+}
+.btn-table-game {
+    padding: 10px 25px;
+    background: var(--btn-table-game-color);
+    color: var(--button2-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn-table-game:hover {
+	background: var(--btn-table-game-color);
+	color: var(--button2-text-color);
+}
+.btn-table-mod {
+    padding: 10px 25px;
+    background: var(--btn-table-mod-color);
+    color: var(--button-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn-table-mod:hover {
+	background: var(--btn-table-mod-color);
+	color: var(--button-hover-text-color);
+}
+.btn-table-loader {
+    padding: 10px 25px;
+    background: var(--btn-table-loader-color);
+    color: var(--button-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn-table-loader:hover {
+	background: var(--btn-table-loader-color);
+	color: var(--button-hover-text-color);
+}
+.btn-table-name {
+    padding: 10px 25px;
+    background: var(--btn-table-name-color);
+    color: var(--button-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn-table-name:hover {
+	background: var(--btn-table-name-color);
+	color: var(--button-hover-text-color);
+}

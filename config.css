@@ -20,6 +20,15 @@
   --button2-hover-color: #fff; /* Colour of button when hovered over */
   --button2-hover-text-color: #2b6ed9; /* Colour of text in button when hovered over */
   
+  --btn-table-status-active-color: #00b050;
+  --btn-table-status-lts-color: #ffbf00;
+  --btn-table-status-eol-color: #ff0000;
+  --btn-table-status-planned-color: #ffd966;
+  --btn-table-game-color: #e7e6e6;
+  --btn-table-mod-color: #c9c9c9;
+  --btn-table-loader-color: #a6a6a6;
+  --btn-table-name-color: #acb9ca;
+  
   --info-color: #4bb4f1; /* Colour of important text (Player count, IP) */
   
   --pinned-message-color: #222426; /* Colour pinned message section */
