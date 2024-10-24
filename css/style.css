@@ -1,5 +1,5 @@
 /*!
- * MomentariyModder Website 6.0 by MomentariyModder
+ * MomentariyModder Website 7.0.0 by MomentariyModder
  * The source code is available on GitHub!
  */
 
@@ -174,7 +174,7 @@ body {
 .hero {
 	height: 100%;
     width: 100%;
-    background: url(../img/background.png);
+    background: url(../img/themes/halloween/banner_non.png);
     background-size: cover;
     text-align: center;
     display: flex;
@@ -221,6 +221,13 @@ section {
 	display: flex;
     justify-content: center;
     padding: 5em 0;
+	height: auto;
+	flex-wrap: wrap;
+}
+section2 {
+	display: flex;
+    justify-content: center;
+    padding: 2em 0;
 	height: auto;
 	flex-wrap: wrap;
 }
@@ -677,7 +684,7 @@ img:hover {
 .btn-table-status-active {
     padding: 10px 25px;
     background: var(--btn-table-status-active-color);
-    color: var(--button-text-color);
+    color: var(--button2-text-color);
     display: inline-block;
     border-radius: 1em;
     transition: .3s;
@@ -685,12 +692,12 @@ img:hover {
 }
 .btn-table-status-active:hover {
 	background: var(--btn-table-status-active-color);
-	color: var(--button-hover-text-color);
+	color: var(--button2-text-color);
 }
 .btn-table-status-lts {
     padding: 10px 25px;
     background: var(--btn-table-status-lts-color);
-    color: var(--button-text-color);
+    color: var(--button2-text-color);
     display: inline-block;
     border-radius: 1em;
     transition: .3s;
@@ -698,12 +705,12 @@ img:hover {
 }
 .btn-table-status-lts:hover {
 	background: var(--btn-table-status-lts-color);
-	color: var(--button-hover-text-color);
+	color: var(--button2-text-color);
 }
 .btn-table-status-eol {
     padding: 10px 25px;
     background: var(--btn-table-status-eol-color);
-    color: var(--button-text-color);
+    color: var(--button2-text-color);
     display: inline-block;
     border-radius: 1em;
     transition: .3s;
@@ -711,12 +718,12 @@ img:hover {
 }
 .btn-table-status-eol:hover {
 	background: var(--btn-table-status-eol-color);
-	color: var(--button-hover-text-color);
+	color: var(--button2-text-color);
 }
 .btn-table-status-planned {
     padding: 10px 25px;
     background: var(--btn-table-status-planned-color);
-    color: var(--button-text-color);
+    color: var(--button2-text-color);
     display: inline-block;
     border-radius: 1em;
     transition: .3s;
@@ -724,7 +731,7 @@ img:hover {
 }
 .btn-table-status-planned:hover {
 	background: var(--btn-table-status-planned-color);
-	color: var(--button-hover-text-color);
+	color: var(--button2-text-color);
 }
 .btn-table-game {
     padding: 10px 25px;
@@ -742,7 +749,7 @@ img:hover {
 .btn-table-mod {
     padding: 10px 25px;
     background: var(--btn-table-mod-color);
-    color: var(--button-text-color);
+    color: var(--button2-text-color);
     display: inline-block;
     border-radius: 1em;
     transition: .3s;
@@ -755,7 +762,7 @@ img:hover {
 .btn-table-loader {
     padding: 10px 25px;
     background: var(--btn-table-loader-color);
-    color: var(--button-text-color);
+    color: var(--button2-text-color);
     display: inline-block;
     border-radius: 1em;
     transition: .3s;
@@ -763,12 +770,12 @@ img:hover {
 }
 .btn-table-loader:hover {
 	background: var(--btn-table-loader-color);
-	color: var(--button-hover-text-color);
+	color: var(--button2-text-color);
 }
 .btn-table-name {
     padding: 10px 25px;
     background: var(--btn-table-name-color);
-    color: var(--button-text-color);
+    color: var(--button2-text-color);
     display: inline-block;
     border-radius: 1em;
     transition: .3s;
@@ -776,7 +783,7 @@ img:hover {
 }
 .btn-table-name:hover {
 	background: var(--btn-table-name-color);
-	color: var(--button-hover-text-color);
+	color: var(--button2-text-color);
 }
 details {
     background: var(--button-color);

@@ -1,16 +1,16 @@
 <!--
-MomentariyModder Website 6.0 by MomentariyModder
+MomentariyModder Website 7.0.0 by MomentariyModder
 The source code is available on GitHub!
 -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" href="../img/favicon.png">
-  <title>Created Music Discs - 3.6.0 | Blog | MomentariyModder</title>
+  <link rel="icon" href="../img/themes/halloween/favicon.png">
+  <title>Hi Telegram and DonationAlerts! | Blog | MomentariyModder</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <meta name="title" content="Created Music Discs - 3.6.0 | Blog | MomentariyModder">
-  <meta name="description" content="Hi, this is the official website of MomentariyModder!">
+  <meta name="title" content="Hi Telegram and DonationAlerts! | Blog | MomentariyModder">
+  <meta name="description" content="Welcome to my website! I am MomentariyModder, or as my friends and acquaintances often call me, Modder. I'm 19 years old, and I'm from Belarus (a small country in Europe bordering Russia and Ukraine). I also like to create almost any content for Minecraft, that is: mods, maps, resource packs, servers.">
   <meta name="keywords" content="Minecraft, Mods, MomentariyModder">
   <meta name="theme-color" content="#4bb4f1">
 
@@ -21,7 +21,28 @@ The source code is available on GitHub!
   <script src="../js/main.js"></script>
   <script src="../config.js"></script>
   <script src="../js/lightbox.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+  
+  <script type="module" src="/src/giscus.ts"></script>
+    <style>
+      .styles {
+        margin: 2rem;
+        font-family: sans-serif;
+        background-color: #bababa;
+      }
+      #comments {
+        display: flex;
+        margin: auto;
+        max-width: 640px;
+        min-height: 200px;
+      }
+      .comments-container {
+        margin: auto;
+        max-width: 800px;
+        max-height: 640px;
+        overflow-y: scroll;
+      }
+    </style>
+  
   <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
   new Crate({
     server: '696094539823448085',
@@ -31,11 +52,10 @@ The source code is available on GitHub!
   
   <script>tosAgreed = true</script>
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../config.css">
   <link href="../css/lightbox.css" rel="stylesheet" media="all">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 
 </head>
 
@@ -48,7 +68,7 @@ The source code is available on GitHub!
 
   <header>
     <div class="hero" id="hero">
-      <a href="#!"><h1 style="padding-top: 3%;"><img class="locked" src="../img/logo.png" width="50%"></h1></a>
+      <a href="#!"><h1 style="padding-top: 3%;"><img class="locked" src="../img/themes/logo.png" width="50%"></h1></a>
     <p> </p>
     <div class="news-card" align="center">
 	  <a href="../" class="btn"><i class="fa-solid fa-house"></i> Home</a>
@@ -63,32 +83,45 @@ The source code is available on GitHub!
 	<h1><i class="fa-solid fa-newspaper"></i> Blog</h1>
     <div id="news">
 	<div class="news-card" align="center">
-	<a>UPDATES</a><br>
-	<a href="../img/blog/cmd-3.6.0/head.png" data-lightbox="roadtrip"><img class="" src="../img/blog/cmd-3.6.0/head.png" width="75%"></a>
-	<h1 align="center">Created Music Discs - 3.6.0</h1>
-	<i>28.03.2024, 06:30</i><br>
+	<a>ANNOUNCEMENT</a><br>
+	<a href="../img/blog/standard/standard.png" data-lightbox="roadtrip"><img class="" src="../img/blog/standard/standard.png" width="75%"></a>
+	<h1 align="center">Hi Telegram and DonationAlerts!</h1>
+	<i>08.10.2024, 21:25</i><br>
 	</div>
 	<p>
-	<b>Added compability:</b><br>
-	- Ancient Elements (by HolySeyhan): NeoForge/Forge<br>
-	- Born in Chaos (by mongoose_artist): NeoForge/Forge<br>
-	- Fuze's Relics (by Furti_Two): NeoForge/Forge<br>
-	- Mana and Artifice (by AWildCanadianEh): NeoForge/Forge<br>
-	- Oreganized (by xaidee): NeoForge/Forge<br><br>
-	<b>Dev changes:</b><br>
-	- Added Music Bag: it currently has no crafting, and no inventory, as there is an error when creating on Fabric<br><br>
-	<b>Note:</b><br>
-	- This is most likely the last version on 1.20.1. The next version will be released on 1.20.4 for NeoForge, and later on 1.20.4 for Fabric/Quilt.<br><br>
-	Download: <a href="../projects/cmd">Page</a>
+	And so RKN is an office of fuckers, it was already obvious, but today they blocked Discord in the Russian Federation. I'm not gonna stop using it. But I have made a Telegram channel where I will repost ads from the Discord server. <br>
+	Telegram channel: <a href="https://t.me/momentariymoddertgk">*Clickable*</a><br><br>
+	DonationAlerts has also been added for financial support!<br>
+	DonationAlerts page: <a href="https://www.donationalerts.com/r/momentariymodder">*Clickable*</a><br><br>
+	Also expired payment for the site domain, because of this it is now available at the following link: <u>momentariymodder.netlify.app</u>
 	</p>
 	<p align="center"><i class="fa-solid fa-user"></i> MomentariyModder (Author)</p>
 	</div>
 	<p> </p>
-	<div id="gitalk-container"></div>
+	<div class="comments-container">
+      <giscus-widget
+        id="comments"
+        repo="MomentariyModder/moddertests"
+        repoid="R_kgDOMcTsaA"
+        category="Announcements"
+        categoryid="DIC_kwDOMcTsaM4Cjo9q"
+        mapping="specific"
+        term="Welcome to giscus!"
+        reactionsenabled="1"
+        emitmetadata="0"
+        inputposition="top"
+        theme="light"
+        lang="en"
+      >
+        <p>Loading comments...</p>
+      </giscus-widget>
+    </div>
   </section>
   <section class="dark">
 	<div class="news-card" align="center">
-	<a href="../blog" class="btn2">◀ Back</a>
+	<a href="../blog/mma-8.0.0" class="btn2"><i class="fa-solid fa-arrow-left"></i> Previous post</a>
+	<a href="../blog" class="btn2"><i class="fa-solid fa-newspaper"></i> Back to Blog</a>
+	<!-- <a href="../blog/1.21.1-update" class="btn2"><i class="fa-solid fa-arrow-right"></i> Next post</a> -->
 	</div>
   </section>
   
@@ -113,7 +146,7 @@ The source code is available on GitHub!
   <footer>
     <a>&copy; 2019-2024 {{server_name}}. All Rights Reserved.</br>{{server_name}} is not affiliated with or endorsed by Mojang Studios or Microsoft<br>{{server_ip}}</a>
 	<a></a>
-	<img class="locked" src="../img/favicon.png" style="height:4em">
+	<img class="locked" src="../img/themes/halloween/favicon.png" style="height:4em">
   </footer>
   </script>
   <script src="../js/license.js"></script>

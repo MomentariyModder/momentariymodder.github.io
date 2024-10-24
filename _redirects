@@ -1,4 +1,7 @@
-# Redirects from what the browser requests to what we serve
+#
+# MomentariyModder Website 7.0.0 by MomentariyModder
+# The source code is available on GitHub!
+#
 /projects/ma                /projects/applications
 /projects/nvh                /projects/night-vision-helmets
 /projects/cmd                /projects/created-music-discs
