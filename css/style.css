@@ -683,7 +683,7 @@ img:hover {
 .btn-table-status-active {
     padding: 10px 25px;
     background: var(--btn-table-status-active-color);
-    color: var(--button2-text-color);
+    color: var(--button-text-color);
     display: inline-block;
     border-radius: 1em;
     transition: .3s;
@@ -691,12 +691,12 @@ img:hover {
 }
 .btn-table-status-active:hover {
 	background: var(--btn-table-status-active-color);
-	color: var(--button2-text-color);
+	color: var(--button-text-color);
 }
 .btn-table-status-lts {
     padding: 10px 25px;
     background: var(--btn-table-status-lts-color);
-    color: var(--button2-text-color);
+    color: var(--button-text-color);
     display: inline-block;
     border-radius: 1em;
     transition: .3s;
@@ -704,12 +704,12 @@ img:hover {
 }
 .btn-table-status-lts:hover {
 	background: var(--btn-table-status-lts-color);
-	color: var(--button2-text-color);
+	color: var(--button-text-color);
 }
 .btn-table-status-eol {
     padding: 10px 25px;
     background: var(--btn-table-status-eol-color);
-    color: var(--button2-text-color);
+    color: var(--button-text-color);
     display: inline-block;
     border-radius: 1em;
     transition: .3s;
@@ -717,12 +717,12 @@ img:hover {
 }
 .btn-table-status-eol:hover {
 	background: var(--btn-table-status-eol-color);
-	color: var(--button2-text-color);
+	color: var(--button-text-color);
 }
 .btn-table-status-planned {
     padding: 10px 25px;
     background: var(--btn-table-status-planned-color);
-    color: var(--button2-text-color);
+    color: var(--button-text-color);
     display: inline-block;
     border-radius: 1em;
     transition: .3s;
@@ -730,7 +730,7 @@ img:hover {
 }
 .btn-table-status-planned:hover {
 	background: var(--btn-table-status-planned-color);
-	color: var(--button2-text-color);
+	color: var(--button-text-color);
 }
 .btn-table-game {
     padding: 10px 25px;
