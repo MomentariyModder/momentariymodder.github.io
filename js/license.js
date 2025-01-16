@@ -39,19 +39,6 @@ let warning=`
           <a >The site is on technical work!</a>
         </p>
       </div>
-	  <div id="links" align="center">
-	  <a href="https://discord.com/invite/9XqgjRd"><img title="Discord" src="https://momentariymodder.netlify.app/img/links/discord.png" alt="Discord" width="10%" /></a>
-      <a href="https://t.me/momentariymoddertgk"><img title="Telegram-channel (RU)" src="https://momentariymodder.netlify.app/img/links/tg.png" alt="Discord" width="10%" /></a> 
-	  <a href="https://twitter.com/momentariymoder"><img title="X/Twitter" src="https://momentariymodder.netlify.app/img/links/x.png" alt="X/Twitter" width="10%" /></a>	  
-	  <a href="https://www.curseforge.com/members/momentariymodder"><img title="CurseForge" src="https://momentariymodder.netlify.app/img/links/curseforge.png" alt="CurseForge" width="10%" /></a> 
-	  <a href="https://modrinth.com/user/momentariymodder"><img title="Modrinth" src="https://momentariymodder.netlify.app/img/links/Modrinth.png" alt="Modrinth" width="10%" /></a> 
-	  <a href="https://github.com/MomentariyModder"><img title="GitHub" src="https://momentariymodder.netlify.app/img/links/GitHub.png" alt="GitHub" width="10%" /></a>
-	  <a href="https://patreon.com/momentariymodder"><img title="Patreon" src="https://momentariymodder.netlify.app/img/links/patreon.png" alt="Patreon" width="10%" /></a>
-	  <a href="https://boosty.to/momentariymodder"><img title="Boosty" src="https://momentariymodder.netlify.app/img/links/boosty.png" alt="Boosty" width="10%" /></a>
-	  <a href="https://ko-fi.com/momentariymodder"><img title="Ko-fi" src="https://momentariymodder.netlify.app/img/links/ko-fi.png" alt="Ko-fi" width="10%" /></a>
-	  <a href="https://www.buymeacoffee.com/momentariymodder"><img title="Buy me a Coffee!" src="https://momentariymodder.netlify.app/img/links/buymeacoffee.png" alt="Buy me a Coffee!" width="10%" /></a>
-	  <a href="https://www.donationalerts.com/r/momentariymodder"><img title="DonationAlerts" src="https://momentariymodder.netlify.app/img/links/da.png" alt="DonationAlerts" width="10%" /></a>
-    </div>
     </div>
   </div>
 `

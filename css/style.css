@@ -4,8 +4,8 @@
  */
 
 @font-face {
-  font-family: Acrom-Medium;
-  src: url(Acrom-Medium.ttf);
+  font-family: Lexend;
+  src: url(Lexend-VariableFont.ttf);
 }
 
 html,
@@ -17,7 +17,7 @@ body {
 	max-height: 100%;
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Acrom-Medium', sans-serif;
+	font-family: 'Lexend', sans-serif;
 	background-color: #34393e;
 }
 .locked {
@@ -174,7 +174,7 @@ body {
 .hero {
 	height: 100%;
     width: 100%;
-    background: url(../img/themes/christmas/banner_non.png);
+    background: url(../img/themes/active/banner_non.png);
     background-size: cover;
     text-align: center;
     display: flex;
@@ -184,14 +184,14 @@ body {
     color: #fff;
 }
 h1 {
-	font-family: 'Acrom-Medium', sans-serif;
+	font-family: 'Lexend', sans-serif;
 	font-size: 4em;
 	margin: 0;
 	width: 100%;
     text-align: center;
 }
 h3 {
-	font-family: 'Acrom-Medium', sans-serif;
+	font-family: 'Lexend', sans-serif;
 	font-size: 1.5em;
     margin: 0;
 	width: 100%;
@@ -207,8 +207,8 @@ h3 {
 .info {
 	color: var(--info-color);
 	font-weight: 700;
-	/* Numbers look stupid in Raleway so we will make it Acrom-Medium */
-	font-family: 'Acrom-Medium', sans-serif;
+	/* Numbers look stupid in Raleway so we will make it Lexend */
+	font-family: 'Lexend', sans-serif;
 }
 .ip {
 	text-decoration: underline;
@@ -293,7 +293,7 @@ hr {
 }
 .staff-card h3 {
 	line-height: 0;
-	font-family: 'Acrom-Medium',sans-serif;
+	font-family: 'Lexend',sans-serif;
 	color: #525252;
 }
 @media (max-width: 1200px) {
@@ -369,13 +369,13 @@ hr {
 
 .staff-card4 h1 {
 	line-height: 0;
-	font-family: 'Acrom-Medium',sans-serif;
+	font-family: 'Lexend',sans-serif;
 	color: #ffffff;
 }
 
 .staff-card4 a {
 	line-height: 0;
-	font-family: 'Acrom-Medium',sans-serif;
+	font-family: 'Lexend',sans-serif;
 	color: #ffffff;
 }
 
@@ -426,7 +426,7 @@ hr {
 }
 .vote-card h3 {
 	line-height: 0;
-	font-family: 'Acrom-Medium',sans-serif;
+	font-family: 'Lexend',sans-serif;
 	color: #ffffff;
 }
 .vote-card a {
@@ -454,7 +454,7 @@ hr {
 }
 .news-card h3 {
 	line-height: 0;
-	font-family: 'Acrom-Medium',sans-serif;
+	font-family: 'Lexend',sans-serif;
 }
 .news-card2 {
 	margin: auto;
@@ -466,7 +466,7 @@ hr {
 }
 .news-card2 h3 {
 	line-height: 0;
-	font-family: 'Acrom-Medium',sans-serif;
+	font-family: 'Lexend',sans-serif;
 }
 #pinned {
 	width: 35em;
@@ -490,7 +490,7 @@ hr {
 }
 .pinned-card h3 {
 	line-height: 0;
-	font-family: 'Acrom-Medium',sans-serif;
+	font-family: 'Lexend',sans-serif;
 }
 .pinned-card > .btn {
 	background: var(--pinned-button-color);
