@@ -21,27 +21,9 @@ The source code is available on GitHub!
   <script src="../js/main.js"></script>
   <script src="../config.js"></script>
   <script src="../js/lightbox.min.js"></script>
-  
-  <script type="module" src="/src/giscus.ts"></script>
-    <style>
-      .styles {
-        margin: 2rem;
-        font-family: sans-serif;
-        background-color: #bababa;
-      }
-      #comments {
-        display: flex;
-        margin: auto;
-        max-width: 640px;
-        min-height: 200px;
-      }
-      .comments-container {
-        margin: auto;
-        max-width: 800px;
-        max-height: 640px;
-        overflow-y: scroll;
-      }
-    </style>
+  <script src="https://giscus.app/client.js"
+        
+</script>
   
   <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
   new Crate({
@@ -100,18 +82,19 @@ The source code is available on GitHub!
 	<p> </p>
 	<div class="comments-container">
       <giscus-widget
-        id="comments"
-        repo="MomentariyModder/moddertests"
-        repoid="R_kgDOMcTsaA"
-        category="Announcements"
-        categoryid="DIC_kwDOMcTsaM4Cjo9q"
-        mapping="specific"
-        term="Welcome to giscus!"
-        reactionsenabled="1"
-        emitmetadata="0"
-        inputposition="top"
-        theme="light"
-        lang="en"
+        data-repo="MomentariyModder/momentariymodder.github.io"
+        data-repo-id="R_kgDOJhYgbQ"
+        data-category="General"
+        data-category-id="DIC_kwDOJhYgbc4Cm_dE"
+        data-mapping="title"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async
       >
         <p>Loading comments...</p>
       </giscus-widget>
