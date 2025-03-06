@@ -73,16 +73,3 @@ function vote(service, image, link) {
       $("#vote").append(voteTemplate)
     },500)
 }
-
-
-var gitalk = new Gitalk({
-  clientID: 'Ov23lisVQnQRvMLqQSq2',
-  clientSecret: '1a704a467a60afe6a81985f609668b337320726f',
-  repo: 'momentariymodder.github.io',      // The repository of store comments,
-  owner: 'MomentariyModder',
-  admin: ['MomentariyModder'],
-  id: location.pathname,      // Ensure uniqueness and length less than 50
-  distractionFreeMode: false  // Facebook-like distraction free mode
-})
-  
-gitalk.render('gitalk-container')
