@@ -20,6 +20,9 @@
   --button2-hover-color: #fff; /* Colour of button when hovered over */
   --button2-hover-text-color: #2b6ed9; /* Colour of text in button when hovered over */
   
+  --button3-text-color: #e7e6e6; /* Colour of buttons */
+  --button3-hover-text-color: #e7e6e6; /* Colour of button when hovered over */
+  
   --btn-table-status-active-color: #00b050;
   --btn-table-status-lts-color: #ffbf00;
   --btn-table-status-eol-color: #ff0000;
@@ -28,6 +31,10 @@
   --btn-table-mod-color: #c9c9c9;
   --btn-table-loader-color: #a6a6a6;
   --btn-table-name-color: #acb9ca;
+  --btn-table-name-mr-color: #1bd96a;
+  --btn-table-name-mr-color-hover: #1ffa9a;
+  --btn-table-name-cf-color: #eb622b;
+  --btn-table-name-cf-color-hover: #ff784d;
   
   --info-color: #4bb4f1; /* Colour of important text (Player count, IP) */
   

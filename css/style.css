@@ -190,9 +190,15 @@ h1 {
 	width: 100%;
     text-align: center;
 }
+h2 {
+	font-family: 'Lexend', sans-serif;
+	font-size: 1.75em;
+    margin: 0;
+	width: 100%;
+}
 h3 {
 	font-family: 'Lexend', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.35em;
     margin: 0;
 	width: 100%;
 }
@@ -783,6 +789,32 @@ img:hover {
 .btn-table-name:hover {
 	background: var(--btn-table-name-color);
 	color: var(--button2-text-color);
+}
+.btn-table-name-mr {
+    padding: 10px 25px;
+    background: var(--btn-table-name-mr-color);
+    color: var(--button3-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn-table-name-mr:hover {
+	background: var(--btn-table-name-mr-color-hover);
+	color: var(--button3-text-color);
+}
+.btn-table-name-cf {
+    padding: 10px 25px;
+    background: var(--btn-table-name-cf-color);
+    color: var(--button3-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn-table-name-cf:hover {
+	background: var(--btn-table-name-cf-color-hover);
+	color: var(--button3-text-color);
 }
 details {
     background: var(--button-color);
