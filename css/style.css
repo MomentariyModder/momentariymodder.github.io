@@ -1,5 +1,5 @@
 /*!
- * MomentariyModder Website 7.0.0 by MomentariyModder
+ * MomentariyModder Website 8.0.0 by MomentariyModder
  * The source code is available on GitHub!
  */
 
@@ -323,6 +323,25 @@ hr {
 }
 @media (max-width: 1200px) {
   .staff-card2 {
+      width: 13em;
+  }
+}
+
+.staff-card2-don {
+	display: inline-block;
+	margin: 1em;
+    position: relative;
+    padding: 1em;
+    background: #34393e;
+    text-align: center;
+	width: 18em;
+	border-radius: 1em;
+}
+.staff-card2-don img {
+	border-radius: 0em;
+}
+@media (max-width: 1200px) {
+  .staff-card2-don {
       width: 13em;
   }
 }
