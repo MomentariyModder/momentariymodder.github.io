@@ -1,5 +1,5 @@
 #
-# MomentariyModder Website 7.0.0 by MomentariyModder
+# MomentariyModder Website 8.0.0 by MomentariyModder
 # The source code is available on GitHub!
 #
 /projects/ma                /projects/applications
@@ -24,3 +24,4 @@
 /wiki/sc                /wiki/storage-crate
 /wiki/iaatm                /wiki/its-all-about-money-reload
 /wiki/iaam                /wiki/its-all-about-money-reload
+/license               /wiki/general-wiki
