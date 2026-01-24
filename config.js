@@ -4,8 +4,8 @@
  */
 
 var server_name = "MomentariyModder";
-var server_ip = "Website 8.0.0";
-var server_port = "2019-2025";
+var server_ip = "Website 8.1.0";
+var server_port = "2019-2026";
 var ip_copied = "IP copied!";
 
 var firefly_count = 20;
