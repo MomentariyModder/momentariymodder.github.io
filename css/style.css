@@ -423,7 +423,39 @@ hr {
     padding: 1em;
     background: #34393e;
     text-align: center;
+	width: 31em;
 	border-radius: 1em;
+}
+
+.staff-card3 img {
+	transition: all .3s;
+}
+
+@media (max-width: 1200px) {
+  .staff-card3 {
+      width: auto;
+  }
+}
+
+.staff-card3-d {
+	display: inline-block;
+	margin: 1em;
+    position: relative;
+    padding: 1em;
+    background: #24272b;
+    text-align: center;
+	width: 31em;
+	border-radius: 1em;
+}
+
+.staff-card3-d img {
+	transition: all .3s;
+}
+
+@media (max-width: 1200px) {
+  .staff-card3-d {
+      width: auto;
+  }
 }
 
 .grid {
@@ -433,8 +465,21 @@ hr {
     ". . .";
 	overflow: hidden;
 }
+
+.grid2 {
+	width: auto;
+	display: grid;
+    grid-template-areas:
+    ". .";
+}
+
 @media (max-width: 1200px) {
   .grid {
+    grid-template-areas:
+    ".";
+  }
+  
+  .grid2 {
     grid-template-areas:
     ".";
   }
@@ -478,7 +523,6 @@ hr {
 	border-radius: 1em;
 }
 .news-card h3 {
-	line-height: 0;
 	font-family: 'Rubik',sans-serif;
 }
 .news-card2 {
@@ -490,7 +534,6 @@ hr {
 	border-radius: 1em;
 }
 .news-card2 h3 {
-	line-height: 0;
 	font-family: 'Rubik',sans-serif;
 }
 #pinned {
@@ -514,7 +557,6 @@ hr {
     margin-top: 0.4em;
 }
 .pinned-card h3 {
-	line-height: 0;
 	font-family: 'Rubik',sans-serif;
 }
 .pinned-card > .btn {
@@ -575,6 +617,60 @@ hr {
 .btn3:hover {
 	background: var(--button2-hover-color);
 	color: var(--button2-hover-text-color);
+}
+
+.buttton1 {
+	padding: 9px 25px;
+	background-color: rgb(69 75 82);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: 0.3s;
+	color: #fff;
+}
+
+.button2 {
+	padding: 16px 25px;
+    background: var(--button-color);
+    color: var(--button-text-color);
+    display: flex;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+	align-items: center;
+	justify-content: inherit;
+	font-size: 1.5em;
+}
+
+.button2 img {
+	width: 2.7em;
+}
+
+.button2:hover {
+	background: var(--button-hover-color);
+	color: var(--button-hover-text-color);
+}
+
+.button3 {
+	padding: 16px 25px;
+    background: var(--light-color);
+    color: var(--button-text-color);
+    display: flex;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+	align-items: center;
+	justify-content: inherit;
+	font-size: 1.5em;
+}
+
+.button3 img {
+	width: 2.7em;
+}
+
+.button3:hover {
+	background: var(--button-hover-color);
+	color: var(--button-hover-text-color);
 }
 
 footer {
