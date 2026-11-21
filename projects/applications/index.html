@@ -1,0 +1,148 @@
+<!--
+MomentariyModder Website 8.0.0 by MomentariyModder
+The source code is available on GitHub!
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="../../img/themes/active/favicon.png">
+  <title>MomentariyModder'Applications | Project | MomentariyModder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="title" content="MomentariyModder'Applications | Project | MomentariyModder">
+  <meta name="description" content="Hello, my name is MomentariyModder, or, as my friends and acquaintances often call me, Modder. I am passionate about creating mods and servers, and I used to work with modpacks and resource packs.">
+  <meta name="keywords" content="Minecraft, Mods, MomentariyModder">
+  <meta name="theme-color" content="#4bb4f1">
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+  <script src="../../js/main.js"></script>
+  <script src="../../config.js"></script>
+  <script src="../../js/lightbox.min.js"></script>
+  
+  <script>tosAgreed = true</script>
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"/>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../config.css">
+  <link href="../../css/lightbox.css" rel="stylesheet" media="all">
+
+</head>
+
+
+<body>
+
+  <div id="target"></div>
+
+  <script id="template" type="text/x-handlebars-template">
+
+  <header>
+    <div class="hero" id="hero">
+      <a href="#!"><h1 style="padding-top: 3%;"><img class="locked" src="../../img/themes/logo.png" width="50%"></h1></a>
+    <p> </p>
+    <div class="news-card" align="center">
+	  <a href="https://momentariymodder.com/" class="btn"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="../../" class="btn"><i class="fa-solid fa-book"></i> Projects</a>
+    </div>
+	<p> </p>
+	</div>
+  </header>
+  
+  <section class="dark" id="projects">
+	<h1><i class="fa-solid fa-list-ul"></i> Project</h1>
+	<div id="news">
+    <div class="news-card">
+      <p align="center" style="color:#fff">
+	    <a>Mod</a>
+	    <strong></strong>
+	    <a href="../../img/projects/applications/banner_16x9.png" data-lightbox="roadtrip"><img class="" src="../../img/projects/applications/banner.png" width="75%"></a>
+	  </p>
+    </div>
+	<p> </p>
+    <div class="news-card">
+	  <p align="center" style="color:#fff">
+		<img class="locked" src="https://img.shields.io/modrinth/dt/7nX5EvcX?style=for-the-badge&logo=modrinth&logoColor=1bd96a&label=%20&labelColor=000&color=1bd96a" alt="">
+		<img class="locked" src="https://img.shields.io/curseforge/dt/353302?style=for-the-badge&logo=curseforge&logoColor=E04E14&label=%20&labelColor=000&color=E04E14" alt="">
+      </p>
+	  <p align="center" style="color:#fff">
+		<img class="locked" src="https://raw.githubusercontent.com/MomentariyModder/branding/main/sites/site/mcreator.png" alt="" width="200" height="59">
+		<img class="locked" src="https://raw.githubusercontent.com/MomentariyModder/branding/main/sites/status/supported.png" alt="" width="200" height="59">
+      </p>
+	  <p align="center" style="color:#fff">
+		<img class="locked" src="../../img/modloaders/neoforge.png" alt="" width="200" height="59">
+		<img class="locked" src="../../img/modloaders/forge.png" alt="" width="200" height="59">
+		<img class="locked" src="../../img/modloaders/fabricmc.png" alt="" width="200" height="59">
+		<img class="locked" src="../../img/modloaders/quiltmc.png" alt="" width="200" height="59">
+      </p>
+	  <p align="center" style="color:#fff">
+		<img class="locked" src="../../img/version/1.21.1.png" alt="" width="7%">
+		<img class="locked" src="../../img/version/1.20.6.png" alt="" width="7%">
+		<img class="locked" src="../../img/version/1.20.4.png" alt="" width="7%">
+		<img class="locked" src="../../img/version/1.20.1.png" alt="" width="7%">
+		<img class="locked" src="../../img/version/1.19.4.png" alt="" width="7%">
+        <img class="locked" src="../../img/version/1.19.2.png" alt="" width="7%">
+	    <img class="locked" src="../../img/version/1.18.2.png" alt="" width="7%">
+	    <img class="locked" src="../../img/version/1.17.1.png" alt="" width="7%">
+		<img class="locked" src="../../img/version/1.16.5.png" alt="" width="7%">
+	  </p>
+    </div>
+	<p> </p>
+	<div class="news-card">	
+      <p>
+	  <a href="../../projects/applications/index" class="btn"><i class="fa-solid fa-book-open"></i> Description</a>
+	  <a href="../../projects/applications/changelog" class="btn"><i class="fa-solid fa-bars-staggered"></i> Changelog</a>
+	  <a href="../../projects/applications/download" class="btn"><i class="fa-solid fa-download"></i> Download</a>
+	  </p>
+    </div>
+	<p> </p>
+	<div class="news-card">	
+      <strong>Description</strong>
+	  <br>
+	  <p>
+	  This mod is the core of MomentariyModder mods.
+	  </p>
+    </div>
+    </div>
+  </section>
+  <section class="dark">
+	<div class="news-card" align="center">
+	<a href="../../" class="btn2"><i class="fa-solid fa-arrow-left"></i> Back to Projects</a>
+	</div>
+  </section>
+  
+  <section class="light">
+    <div id="projects-l1" class="grid2">
+	<div class="staff-card3-d">
+	<h2><i class="fa-solid fa-share"></i> Links</h2>
+	  <a href="https://discord.com/invite/9XqgjRd" class="button3"><img title="Discord" src="../../img/links/discord.png"><b>Discord</b></a><br>
+	  <a href="https://t.me/momentariymodder" class="button3"><img title="Telegram" src="../../img/links/tg.png"><b>Telegram</b></a><br>
+	  <a href="https://t.me/momentariymoddershitpost" class="button3"><img title="Telegram (Shitpost)" src="../../img/links/tg.png"><b>Telegram (Shitpost)</b></a><br>
+	  <a href="https://twitter.com/momentariymoder" class="button3"><img title="X/Twitter" src="../../img/links/x.png"><b>X/Twitter</b></a><br>
+	  <a href="https://bsky.app/profile/momentariymodder.bsky.social" class="button3"><img title="Bluesky" src="../../img/links/bluesky.png"><b>Bluesky</b></a><br>
+	  <a href="https://modrinth.com/user/momentariymodder" class="button3"><img title="Modrinth" src="../../img/links/Modrinth.png"><b>Modrinth</b></a><br>
+	  <a href="https://www.curseforge.com/members/momentariymodder" class="button3"><img title="CurseForge" src="../../img/links/curseforge.png"><b>CurseForge</b></a><br>
+	  <a href="https://github.com/MomentariyModder" class="button3"><img title="GitHub" src="../../img/links/GitHub.png"><b>GitHub</b></a><br>
+    </div>
+	<div class="staff-card3-d">
+	<h2><i class="fa-solid fa-comments-dollar"></i> Send a donate!</h2>
+	  <a href="https://ko-fi.com/momentariymodder" class="button3"><img title="Ko-fi" src="../../img/links/ko-fi.png"><b>Ko-fi</b></a><br>
+	  <a href="https://www.buymeacoffee.com/momentariymodder" class="button3"><img title="Buy me a Coffee!" src="../../img/links/buymeacoffee.png"><b>Buy me a Coffee!</b></a><br>
+	  <a href="https://www.donationalerts.com/r/momentariymodder" class="button3"><img title="DonationAlerts" src="../../img/links/da.png"><b>DonationAlerts</b></a><br>
+	  <a href="https://boosty.to/momentariymodder/donate" class="button3"><img title="Boosty" src="../../img/links/boosty.png"><b>Boosty</b></a><br>
+    </div>
+	</div>
+  </section>
+  
+  
+  <footer>
+    <a>&copy; {{server_port}} {{server_name}}. All Rights Reserved.</br>Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang Synergies AB, Microsoft Corporation or other rightsholders.<br>{{server_ip}}</a>
+	<a></a>
+	<img class="locked" src="../../img/themes/active/favicon.png" style="height:4em">
+  </footer>
+  </script>
+  <script src="../../js/license.js"></script>
+  
+</body>
+</html>
