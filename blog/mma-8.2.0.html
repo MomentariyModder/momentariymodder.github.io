@@ -1,0 +1,123 @@
+<!--
+MomentariyModder Website 8.0.0 by MomentariyModder
+The source code is available on GitHub!
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="../img/themes/active/favicon.png">
+  <title>Applications - 8.2.0 | Blog | MomentariyModder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="title" content="Applications - 8.2.0 | Blog | MomentariyModder">
+  <meta name="description" content="Hello, my name is MomentariyModder, or, as my friends and acquaintances often call me, Modder. I am passionate about creating mods and servers, and I used to work with modpacks and resource packs.">
+  <meta name="keywords" content="Minecraft, Mods, MomentariyModder">
+  <meta name="theme-color" content="#4bb4f1">
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../config.js"></script>
+  <script src="../js/lightbox.min.js"></script>
+  
+  <script>tosAgreed = true</script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"/>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../config.css">
+  <link href="../css/lightbox.css" rel="stylesheet" media="all">
+
+</head>
+
+
+<body>
+
+  <div id="target"></div>
+
+  <script id="template" type="text/x-handlebars-template">
+
+  <header>
+    <div class="hero" id="hero">
+      <a href="#!"><h1 style="padding-top: 3%;"><img class="locked" src="../img/themes/logo.png" width="50%"></h1></a>
+    <p> </p>
+    <div class="news-card" align="center">
+	  <a href="https://momentariymodder.com/" class="btn"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="../" class="btn"><i class="fa-solid fa-newspaper"></i> Blog</a>
+    </div>
+	<p> </p>
+	</div>
+  </header>
+  
+  <section class="dark" id="blog">
+	<h1><i class="fa-solid fa-newspaper"></i> Blog</h1>
+    <div id="news">
+	<div class="news-card" align="center">
+	<a>UPDATES</a><br>
+	<a href="../img/blog/standard/mma.png" data-lightbox="roadtrip"><img class="" src="../img/blog/standard/mma.png" width="75%"></a>
+	<h1 align="center">Applications - 8.2.0</h1>
+	<i>15.04.2025, 21:00</i><br>
+	</div>
+	<p>
+	Hello to all the readers of this post!<br><br>
+	Today I present the long awaited update of MomentariyModder'Applications 8.2.0 mod for version 1.21.1!<br><br>
+	<h2>Changelog</h2>
+	<b>Changes:</b><br>
+	- Changed the message responses to command '/applications'<br>
+	- Parameter 'permissions' has been changed to 'license'<br><br>
+	<b>Note:</b><br>
+	- With this version the mod has moved to my own license - <a href="../license">MomentariyModder License</a>.<br><br>
+	Download: <a href="../projects/applications">Page</a>
+	</p>
+	<p align="center"><i class="fa-solid fa-user"></i> MomentariyModder (Author)</p>
+	</div>
+	<p> </p>
+	<div id="news">
+	<div class="news-card" align="center">
+	<h2>Comments will be back soon!</h2>
+    </div>
+    </div>	
+  </section>
+  <section class="dark">
+	<div class="news-card" align="center">
+	<a href="../blog/launching-a-forum-in-discord-server" class="btn2"><i class="fa-solid fa-arrow-left"></i> Previous post</a>
+	<a href="../" class="btn2"><i class="fa-solid fa-newspaper"></i> Back to Blog</a>
+	<a href="../blog/cmd-3.11.0-6.1.0" class="btn2"><i class="fa-solid fa-arrow-right"></i> Next post</a>
+	</div>
+  </section>
+  
+  <section class="light">
+    <div id="projects-l1" class="grid2">
+	<div class="staff-card3-d">
+	<h2><i class="fa-solid fa-share"></i> Links</h2>
+	  <a href="https://discord.com/invite/9XqgjRd" class="button3"><img title="Discord" src="../img/links/discord.png"><b>Discord</b></a><br>
+	  <a href="https://t.me/momentariymodder" class="button3"><img title="Telegram" src="../img/links/tg.png"><b>Telegram</b></a><br>
+	  <a href="https://t.me/momentariymoddershitpost" class="button3"><img title="Telegram (Shitpost)" src="../img/links/tg.png"><b>Telegram (Shitpost)</b></a><br>
+	  <a href="https://twitter.com/momentariymoder" class="button3"><img title="X/Twitter" src="../img/links/x.png"><b>X/Twitter</b></a><br>
+	  <a href="https://bsky.app/profile/momentariymodder.bsky.social" class="button3"><img title="Bluesky" src="../img/links/bluesky.png"><b>Bluesky</b></a><br>
+	  <a href="https://modrinth.com/user/momentariymodder" class="button3"><img title="Modrinth" src="../img/links/Modrinth.png"><b>Modrinth</b></a><br>
+	  <a href="https://www.curseforge.com/members/momentariymodder" class="button3"><img title="CurseForge" src="../img/links/curseforge.png"><b>CurseForge</b></a><br>
+	  <a href="https://github.com/MomentariyModder" class="button3"><img title="GitHub" src="../img/links/GitHub.png"><b>GitHub</b></a><br>
+    </div>
+	<div class="staff-card3-d">
+	<h2><i class="fa-solid fa-comments-dollar"></i> Send a donate!</h2>
+	  <a href="https://ko-fi.com/momentariymodder" class="button3"><img title="Ko-fi" src="../img/links/ko-fi.png"><b>Ko-fi</b></a><br>
+	  <a href="https://www.buymeacoffee.com/momentariymodder" class="button3"><img title="Buy me a Coffee!" src="../img/links/buymeacoffee.png"><b>Buy me a Coffee!</b></a><br>
+	  <a href="https://www.donationalerts.com/r/momentariymodder" class="button3"><img title="DonationAlerts" src="../img/links/da.png"><b>DonationAlerts</b></a><br>
+	  <a href="https://boosty.to/momentariymodder/donate" class="button3"><img title="Boosty" src="../img/links/boosty.png"><b>Boosty</b></a><br>
+    </div>
+	</div>
+  </section>
+  
+  
+  <footer>
+    <a>&copy; {{server_port}} {{server_name}}. All Rights Reserved.</br>Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang Synergies AB, Microsoft Corporation or other rightsholders.<br>{{server_ip}}</a>
+	<a></a>
+	<img class="locked" src="../img/themes/active/favicon.png" style="height:4em">
+  </footer>
+  </script>
+  <script src="../js/license.js"></script>
+  
+</body>
+</html>
