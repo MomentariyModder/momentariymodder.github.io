@@ -1,0 +1,29 @@
+#
+# MomentariyModder Website 8.0.0 by MomentariyModder
+# The source code is available on GitHub!
+#
+/projects/ma                /projects/applications
+/projects/nvh                /projects/night-vision-helmets
+/projects/cmd                /projects/created-music-discs
+/projects/cse                /projects/created-spawn-eggs
+/projects/hg                /projects/hunger-priview
+/projects/ssreload2                /projects/spongebob-squarepants-reload-2
+/projects/pc                /projects/perodiumcraft
+/projects/ssreload                /projects/spongebob-squarepants-reload
+/projects/sc                /projects/storage-crate
+/projects/wdt                /projects/window-doors-and-trapdoors
+/projects/ianda                /projects/industrial-and-adventure
+/projects/iaatm                /projects/its-all-about-money-reload
+/projects/iaam                /projects/its-all-about-money-reload
+/projects/its-all-about-the-money-reload               /projects/its-all-about-money-reload
+/projects/its_all_about_money_reload               /projects/its-all-about-money-reload
+/wiki/ma                /wiki/applications
+/wiki/nvh                /wiki/night-vision-helmets
+/wiki/cmd                /wiki/created-music-discs
+/wiki/cse                /wiki/created-spawn-eggs
+/wiki/sc                /wiki/storage-crate
+/wiki/iaatm                /wiki/its-all-about-money-reload
+/wiki/iaam                /wiki/its-all-about-money-reload
+/license               /wiki/general-wiki
+/projects/created-music-discs/compatible-mods                /wiki/created-music-discs#cmd-сompatible
+/projects/cmd/compatible-mods                /wiki/created-music-discs#cmd-сompatible

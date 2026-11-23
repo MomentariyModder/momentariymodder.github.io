@@ -1,0 +1,48 @@
+/*!
+ * MomentariyModder Website 8.0.0 by MomentariyModder
+ * The source code is available on GitHub!
+ */
+
+:root {
+  --dark-color: #24272b; /* Colour of dark section */
+  --dark-text-color: #fff; /* Colour of text in dark section */
+  
+  --light-color: #34393e; /* Colour of light section */
+  --light-text-color: #fff; /* Colour of text in light section */
+  
+  --button-color: #24272b; /* Colour of buttons */
+  --button-text-color: #fff; /* Colour of the text in buttons */
+  --button-hover-color: #2b6ed9; /* Colour of button when hovered over */
+  --button-hover-text-color: #fff; /* Colour of text in button when hovered over */
+  
+  --button2-color: #fff; /* Colour of buttons */
+  --button2-text-color: #24272b; /* Colour of the text in buttons */
+  --button2-hover-color: #fff; /* Colour of button when hovered over */
+  --button2-hover-text-color: #2b6ed9; /* Colour of text in button when hovered over */
+  
+  --button3-text-color: #e7e6e6; /* Colour of buttons */
+  --button3-hover-text-color: #e7e6e6; /* Colour of button when hovered over */
+  
+  --btn-table-status-active-color: #00b050;
+  --btn-table-status-lts-color: #ffbf00;
+  --btn-table-status-eol-color: #ff0000;
+  --btn-table-status-planned-color: #7030a0;
+  --btn-table-status-archive-color: #333f4f;
+  --btn-table-game-color: #e7e6e6;
+  --btn-table-mod-color: #c9c9c9;
+  --btn-table-loader-color: #a6a6a6;
+  --btn-table-name-color: #acb9ca;
+  --btn-table-name-mr-color: #1bd96a;
+  --btn-table-name-mr-color-hover: #1ffa9a;
+  --btn-table-name-cf-color: #eb622b;
+  --btn-table-name-cf-color-hover: #ff784d;
+  
+  --info-color: #4bb4f1; /* Colour of important text (Player count, IP) */
+  
+  --pinned-message-color: #222426; /* Colour pinned message section */
+  --pinned-message-text-color: #fff; /* Colour of text in pinned message section */
+  --pinned-button-color: #2e3032; /* Colour of button in pinned message section */
+  --pinned-button-text-color: #fff; /* Colour of text in button in pinned message section */
+  --pinned-button-hover-color: #b32a3d; /* Colour of button in pinned message section when hovered over */ 
+  --pinned-button-hover-text-color: #fff; /* Colour of text in button in pinned message section when hovered over */
+}
