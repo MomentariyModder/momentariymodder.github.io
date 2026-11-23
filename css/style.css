@@ -853,6 +853,19 @@ img:hover {
 	background: var(--btn-table-status-planned-color);
 	color: var(--button-text-color);
 }
+.btn-table-status-archive {
+    padding: 10px 25px;
+    background: var(--btn-table-status-archive-color);
+    color: var(--button-text-color);
+    display: inline-block;
+    border-radius: 1em;
+    transition: .3s;
+	text-decoration: none;
+}
+.btn-table-status-archive:hover {
+	background: var(--btn-table-status-archive-color);
+	color: var(--button-text-color);
+}
 .btn-table-game {
     padding: 10px 25px;
     background: var(--btn-table-game-color);
